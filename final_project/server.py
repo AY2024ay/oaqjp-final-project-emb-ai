@@ -3,13 +3,11 @@ from EmotionDetection.emotion_detection import emotion_detector
 
 app = Flask(__name__, template_folder='../templates')
 
-# ✅ 首页（必须加，否则你会一直 404）
 @app.route("/")
 def home():
     return render_template("index.html")
 
 
-# ✅ API接口（作业核心评分点）
 @app.route("/emotionDetector", methods=["GET"])
 def emotion_detection_api():
 
