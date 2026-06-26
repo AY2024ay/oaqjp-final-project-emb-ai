@@ -1,4 +1,4 @@
-from EmotionDetection.emotion_detector import emotion_detector
+from EmotionDetection.emotion_detection import emotion_detector
 
 def test_joy():
     result = emotion_detector("I am glad this happened")

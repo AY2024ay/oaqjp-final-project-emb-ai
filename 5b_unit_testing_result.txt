@@ -1,0 +1,10 @@
+collected 5 items
+
+test_emotion_detection.py::test_joy PASSED                         [ 20%]
+test_emotion_detection.py::test_anger PASSED                       [ 40%]
+test_emotion_detection.py::test_disgust PASSED                     [ 60%]
+test_emotion_detection.py::test_sadness PASSED                     [ 80%]
+test_emotion_detection.py::test_fear PASSED                        [ 100%]
+
+===============================5 passed in 0.78s ===========================
+
